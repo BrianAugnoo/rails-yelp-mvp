@@ -1,0 +1,5 @@
+<div class="container">
+<% @restaurants.each do |restaurant|%>
+  <h2><%= link_to "#{restaurant.name}", restaurant %></h2>
+<% end %><%# restaurants.each end %>
+</div>
